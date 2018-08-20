@@ -1,0 +1,237 @@
+<resources>
+    <!--GENERAL____________________________________________________________-->
+    <string name="app_name">Prometheus</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id" translatable="false">559143054250062</string>
+    <!-- ______________________________________________________________________________ -->
+    <!-- FRAGMENT HOME__________________________________________________________________-->
+    <string name="total_usage_home_1">You have used your phone for </string>
+    <string name="total_usage_home_2"> today.</string>
+    <string name="total_notify_home_1">And i blamed you</string>
+    <string name="total_notify_home_2">times.</string>
+    <string name="think_about">\nThink about it!</string>
+    <string name="good_job">\nGood Job!</string>
+    <string name="home_pie_chart_other">Other</string>
+    <string name="not_information_chart">I don\'t have enough information to make a significant chart</string>
+    <string name="dialog_mute">Do you want turn off me, until you will wake me up tapping?</string>
+    <string name="text_mute">Tap on me to wake me up</string>
+    <!-- ______________________________________________________________________________ -->
+    <!-- STATISTICS HOME__________________________________________________________________-->
+    <string name="statistics_rank">Rank</string>
+    <string name="statistics_app_name">Application Name</string>
+    <string name="statistics_time_usage">Time Usage of Today</string>
+    <string name="statistics_max_time">Max Time</string>
+    <string name="statistics_total_usage">Total Usage of Ever</string>
+    <string name="statistics_number_if_monitoring_day">Number of Monitoring Day</string>
+    <string name="statistics_is_tracking">is Tracking?</string>
+    <string name="statistics_is_notifying">is Notifying?</string>
+    <string name="statistics_priority">Notification Intensity</string>
+    <string name="statistics_notify_time">Number of Notifications</string>
+    <string name="statistics_table_app_name_deleted">DELETED APP</string>
+    <string name="statistics_table_title">Statistics table</string>
+    <string name="statistics_table_priority_low">Low Intensity</string>
+    <string name="statistics_table_priority_mid">Mid Intensity</string>
+    <string name="statistics_table_priority_high">High Intensity</string>
+    <string name="statistics_table_priority_extreme">Extreme Intensity</string>
+    <!-- Dialog per statistiche singole app -->
+    <string name="statistics_dialog_title">Hi, buddy</string>
+    <!-- ______________________________________________________________________________ -->
+    <!-- LOGIN__________________________________________________________________-->
+    <string name="login_toast_fb_success">Facebook Login Succeeded</string>
+    <string name="login_toast_fb_cancel">Facebook Login canceled</string>
+    <string name="login_toast_fb_error">Facebook Login Error</string>
+    <string name="logout_toast_fb">Facebook Logout Succeeded</string>
+    <string name="login_toast_google_error">Google Login Connection Failed</string>
+    <string name="login_toast_google_success">Google Login Succeeded</string>
+    <string name="login_toast_google_out">Google Logout Succeeded</string>
+    <!-- ______________________________________________________________________________ -->
+    <!-- NOTIFICATION__________________________________________________________________-->
+    <string name="notification_toast_bubble_overdraw">I don\'t have overlay permission</string>
+    <string name="notification_too_much_used">Remember that you used too much</string>
+    <!-- ______________________________________________________________________________ -->
+    <!-- PERMISSION__________________________________________________________________-->
+    <string name="deny">deny</string>
+    <string name="allow">allow</string>
+    <string name="permission_toast_boot_not_grated">Boot Completed Permissions Not Granted!</string>
+    <string name="permission_dialog_title">Hi, buddy</string>
+    <string name="permission_dialog_app_usage">Allow Prometheus to track your usage?</string>
+    <string name="permission_toast_app_usage_not_grated">Without permissions Prometheus will lose some features</string>
+    <string name="permission_dialog_overdraw">Allow Prometheus to show notification over other app?</string>
+    <string name="permission_toast_overdraw_not_grated">Without permissions, Prometheus will lose some notifications features</string>
+    <string name="permission_dialog_boot">The Application needs to knows when you boot your phone to works properly! Check System Setting to grant access!</string>
+    <string name="permission_dialog_notification">Allow Prometheus to track your notifications?</string>
+    <string name="permission_toast_notification_not_grated">Without permissions, Prometheus will lose some notice features</string>
+    <string name="permission_dialog_location">Allow Prometheus to use location to use Maps Functions</string>
+    <!-- ______________________________________________________________________________ -->
+    <!-- RECEIVER__________________________________________________________________-->
+    <string name="receiver_toast_download_success">Download : Success</string>
+    <string name="receiver_toast_download_failed">Download : Failed</string>
+    <!-- ______________________________________________________________________________ -->
+    <!-- RECYCLERVIEW__________________________________________________________________-->
+    <string name="recycler_view_notification_dialog_title">Hi, buddy</string>
+    <string name="recycler_view_notification_dialog_message">Would you notify</string>
+    <string name="recycler_view_statistics_add_dialog_tracking_1">Instruct Prometheus to tracking of </string>
+    <string name="recycler_view_statistics_add_dialog_tracking_2"> \?</string>
+    <string name="recycler_view_statistics_show_dialog_title_priority">Setting Notification Intensity</string>
+    <string name="recycler_view_statistics_show_dialog_message_priority">Choose the Notification intensity for</string>
+    <string name="recycler_view_statistics_show_dialog_title_stop_tracking">Hi, buddy</string>
+    <string name="recycler_view_statistics_show_dialog_message_stop_tracking_1">are you sure to stop me for tracking of</string>
+    <string name="recycler_view_statistics_show_dialog_message_stop_tracking_2"> \?</string>
+    <string name="recycler_view_statistics_show_picker_time_notify_1">Choose the time after that</string>
+    <string name="recycler_view_statistics_show_picker_time_notify_2">it has to be notified</string>
+    <string name="recycler_view_statistics_show_notify_time">Notify Time:</string>
+    <string name="recycler_view_statistics_show_notify_time_always">Always notified</string>
+    <string name="recycler_view_statistics_show_notify_time_never">Never notified</string>
+    <string name="recycler_view_statistics_show_usage_time">Usage Time:</string>
+    <string name="choose_time_notify">Choose the time for notify</string>
+    <string name="enable_tarck">Enable/Disable tracking</string>
+    <string name="enable_notify">Enable/Disable notification</string>
+    <!-- ______________________________________________________________________________ -->
+    <!-- ACTIVITY AddApplication_______________________________________________-->
+    <string name="activity_add_application_title">Add Application</string>
+    <string name="search_hint_add">Search app…</string>
+    <!-- ______________________________________________________________________________ -->
+    <!-- GENERIC STRING -->
+    <string name="minute">minute</string>
+    <string name="minutes">minutes</string>
+    <string name="minutes_caps">Minutes</string>
+    <string name="minute_short">m</string>
+    <string name="hour">hour</string>
+    <string name="hours">hours</string>
+    <string name="hours_caps">Hours</string>
+    <string name="hour_short">h</string>
+    <string name="second">second</string>
+    <string name="seconds">seconds</string>
+    <string name="seconds_caps">Seconds</string>
+    <string name="and">and</string>
+    <string name="false_short">F</string>
+    <string name="true_short">T</string>
+    <string name="not_used_phone">You haven\'t used your phone</string>
+    <string name="not_used_app">Never used</string>
+    <!-- ______________________________________________________________________________ -->
+
+    <!--..........XML.............-->
+    <!-- Navigation Bar User_______________________________________________-->
+    <string name="user">User</string>
+    <string name="userMail">User e-mail</string>
+    <!-- Navigation Bar Items-->
+    <string name="home">Home</string>
+    <string name="appUsageManager">App Usage Manager</string>
+    <string name="statistics">Statistics</string>
+    <string name="settings">Settings</string>
+    <string name="notification">Notification Manager</string>
+    <string name="maps_nav_title">Maps</string>
+    <string name="maps">Silence Place</string>
+    <string name="google_login">Google Login</string>
+    <string name="facebook_login">Facebook Login</string>
+    <string name="item_title_home">Home</string>
+    <string name="item_title_app_usage">App Usage</string>
+    <string name="item_title_login">Social</string>
+
+    <!-- ______________________________________________________________________________ -->
+    <!-- Fragment log in_______________________________________________________________-->
+    <string name="title_activity_firststartlogin">Log in</string>
+    <string name="textViewFirstStartLoginTitle">Hello, I\'m Prometheus!</string>
+    <string name="proceedSingIn">Proceed without log in</string>
+    <!-- ______________________________________________________________________________ -->
+    <!-- Lock Screen-->
+    <string name="title_activity_lock_fullscreen">Prometheus Extreme Notify</string>
+    <string name="fullScreenAndDialogNotice">For today stop using</string>
+    <string name="lockscreen_button_exit">EXIT</string>
+    <!-- ______________________________________________________________________________ -->
+    <!-- Card Show Item-->
+    <string name="card_show_item_usage_time">Usage time:</string>
+    <string name="card_show_item_notify_time">Notification time:</string>
+    <!-- ______________________________________________________________________________ -->
+    <!-- dialog notification time-->
+    <string name="dialog_notification_time_picker">Hi, buddy!</string>
+    <!-- ______________________________________________________________________________ -->
+    <!-- dialog too much usage-->
+    <string name="dialog_too_much_usage_title">Hi, buddy!</string>
+    <string name="dialog_too_much_usage_sure">Sure</string>
+    <string name="dialog_too_much_usage_not_annoying">Don\'t annoying me</string>
+    <!-- ______________________________________________________________________________ -->
+    <!-- dialog track-->
+    <string name="dialog_track_title">Hi, buddy!</string>
+    <string name="dialog_track_yes">Yes</string>
+    <string name="dialog_track_no">No</string>
+    <!-- ______________________________________________________________________________ -->
+    <!--Statistics Recycler View-->
+    <!-- ______________________________________________________________________________ -->
+    <!-- SETTINGS ________________________________________________________________________-->
+    <!-- My settings -->
+    <string name="no_pause">Suddenly renotified</string>
+    <string name="setting_title">Settings</string>
+    <string name="general_settings">General</string>
+    <string name="theme_settings">Theme</string>
+    <string name="permission_settings">Permissions</string>
+    <string name="advanced_settings">Advanced</string>
+    <string name="theme_settings_activity_title">Theme Settings</string>
+    <string name="permission_settings_activity_title">Permissions Settings</string>
+    <string name="general_settings_activity_title">General Settings</string>
+    <string name="advanced_settings_activity_title">Advanced Settings</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="restart_service">Restart Application\'s Core</string>
+    <string name="max_usage_settings">Phone Max Usage</string>
+    <string name="low_priority_settings">Low Priority time after renotify</string>
+    <string name="mid_priority_settings">Mid Priority time after renotify</string>
+    <string name="high_priority_settings">High Priority time after renotify</string>
+    <string name="overlay_permission_settings">Check the overlay permission</string>
+    <string name="usage_permission_settings">Check the usage permission</string>
+    <string name="notification_permission_settings">Check the notifications permission</string>
+    <string name="granted_permission">Permission Granted</string>
+    <string name="notification_permission_concede">Thanks to this permission I can Monitor the notifications for more accuracy</string>
+    <string name="usage_permission_concede">Thank to this permission I can track the others applications</string>
+    <string name="overlay_permission_concede">Thank to this permission I can notify in the right way</string>
+    <string name="application_theme">Application theme</string>
+    <string name="col_nav_bar">Colored Navigation Bar</string>
+    <string name="col_nav_bar_sub">Only useful if u have one (May need a restart of the app)</string>
+    <string name="colorfull_mode">Colorful Mode</string>
+    <string name="colorfull_mode_sub">If is on the lists dividers appear colorful</string>
+    <string name="app_service_restarted">Application\'s Core restarted</string>
+    <string name="silence_place">Enable the Silent place</string>
+    <string name="silence_place_description">If is enable I\'ll sleep in selected place</string>
+    <string name="location_setting">Location</string>
+    <string name="location_settings_activity_title">Location Settings</string>
+    <string name="permission_granted_dialog">Got it</string>
+    <!-- ______________________________________________________________________________ -->
+
+    <!-- Dialog select Avatar -->
+    <string name="dynamic">Animated Avatar</string>
+    <string name="static_avatar">Static Avatar</string>
+    <string name="prometheus_theme">Prometheus Theme</string>
+    <string name="prometheus_theme_color">Blue</string>
+    <string name="material_theme">Polygonal Theme</string>
+    <string name="material_theme_color">Green</string>
+    <string name="turkey_theme">Turkey Theme</string>
+    <string name="turkey_theme_color">Light Brown</string>
+    <string name="pig_theme">Pig Theme</string>
+    <string name="pig_theme_color">Pink</string>
+    <string name="dog_theme">Dog Theme</string>
+    <string name="dog_theme_color">Dark Brown</string>
+    <string name="android_theme">Android Theme</string>
+    <string name="android_theme_color">Gray</string>
+    <string name="dialog_theme_issues_static_avatar_jellybean">Static avatar could cause graphical problems on version JellyBean</string>
+    <string name="dialog_theme_issues_pig19">Pig Theme could cause graphical problems on version KitKat</string>
+
+    <!-- Map Activity -->
+    <string name="marker_subtitle">tap this to delete me</string>
+    <string name="search_hint_map">Search place…</string>
+    <string name="marker_title">Here I will shut down</string>
+    <string name="toast_more_information">I need more accurate informations</string>
+    <string name="toast_impossible">Impossible to search</string>
+
+    <string name="menu_search_title">find</string>
+    <string name="tutorial_forward">next</string>
+    <string name="tutorial_back">back</string>
+
+    <string name="finish_button_tutorial">Finish</string>
+    <string name="tutorial_menu">Tutorial</string>
+    <string name="tutorial_not_necessary">Tutorial is not necessary</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="silence_place_toast">The Silence Place is disabled\nCheck the settings to activate it</string>
+</resources>

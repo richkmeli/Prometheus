@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Colore lockFullScreen -->
+    <color name="textNotice">#DC143C</color>
+    <!-- Cremisi -->
+
+
+    <color name="white">#ffffff</color>
+    <color name="gray_sep">#E0E0E0</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="background_material_light">#c2eeea</color>
+    <color name="primary_material_light_1">#009688</color>
+    <color name="primary_material_dark_1">#00443d</color>
+    <color name="primary_material_dark_2">#00403a</color>
+    <color name="primary_dark_material_dark">#001513</color>
+    <color name="accent_material_dark">#80cbc4</color>
+    <color name="black">#00403a</color>
+    <color name="realBlack">#000000</color>
+    <color name="primary_text_default_material_dark">#212121</color>
+    <color name="primary_text_material_dark">#f5f5f5</color>
+    <color name="transparent">#009688</color>
+    <color name="primary_material_light_2">#009688</color>
+    <color name="primary_dark_material_light">#00796b</color>
+
+    <color name="foreground_material_light">#ffffff</color>
+    <color name="primary_text_material_light">#000000</color>
+
+
+    <!-- Theme -->
+
+    <!-- Prometheus theme -->
+    <color name="prom_colorPrimary">#1976d2</color>
+    <color name="prom_colorPrimaryDark">#01579b</color>
+    <color name="prom_colorAccent">#1976d2</color>
+    <color name="prom_colorBackground">#ffffff</color>
+    <color name="prom_colorCardBackground">#40C4FF</color>
+
+    <!-- Material theme -->
+    <color name="material_colorPrimary">#009688</color>
+    <color name="material_colorPrimaryDark">#00796b</color>
+    <color name="material_colorAccent">#009688</color>
+    <color name="material_colorBackground">#ffffff</color>
+    <color name="material_colorCardBackground">#B9F6CA</color>
+
+    <!-- Pig Theme -->
+    <color name="pig_colorPrimary">#f8bbd0</color>
+    <color name="pig_colorPrimaryDark">#ef9a9a</color>
+    <color name="pig_colorAccent">#f8bbd0</color>
+    <color name="pig_colorBackground">#ffffff</color>
+    <color name="pig_colorCardBackground">#FCE4EC</color>
+    <color name="pig_secondaryText">#F06292</color>
+
+    <!-- Dog Theme -->
+    <color name="dog_colorPrimary">#795548</color>
+    <color name="dog_colorPrimaryDark">#5d4037</color>
+    <color name="dog_colorAccent">#795548</color>
+    <color name="dog_colorBackground">#212121</color>
+    <color name="dog_colorCardBackground">#A1887F</color>
+
+    <!-- Turkey Theme -->
+    <color name="turkey_colorPrimary">#ab5810</color>
+    <color name="turkey_colorPrimaryDark">#773d0b</color>
+    <color name="turkey_colorAccent">#ab5810</color>
+    <color name="turkey_colorBackground">#f5f5f5</color>
+    <color name="turkey_colorCardBackground">#FFD180</color>
+    <color name="secondary_text_material_light">#000000</color>
+    <color name="secondary_text_material_dark">#ffffff</color>
+
+    <!-- Android Theme -->
+    <color name="android_colorPrimary">#9E9E9E</color>
+    <color name="android_colorPrimaryDark">#757575</color>
+    <color name="android_colorAccent">#9E9E9E</color>
+    <color name="android_colorBackground">#ffffff</color>
+    <color name="android_colorCardBackground">#EEEEEE</color>
+
+
+    <color name="bright_pink">#FF007F</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF7F00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="green">#00FF00</color>
+    <color name="spring_green">#00FF7F</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="azure">#007FFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="violet">#7F00FF</color>
+    <color name="magenta">#FF00FF</color>
+
+
+    <color name="chart1">#F48FB1</color>
+    <color name="chart2">#42A5F5</color>
+    <color name="chart3">#FFB74D</color>
+    <color name="chart4">#FFF59D</color>
+    <color name="chart5">#B2FF59</color>
+    <color name="chart6">#E57373</color>
+    <color name="chart7">#64FFDA</color>
+    <color name="colorPrimaryDark">#01579b</color>
+
+
+</resources>

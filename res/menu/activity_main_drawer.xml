@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/item_title_home">
+    <menu>
+        <item
+            android:id="@+id/nav_home"
+            android:checkable="true"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="@string/home" />
+        </menu>
+    </item>
+
+    <item android:title="@string/item_title_app_usage">
+        <menu>
+            <item
+                android:checkable="true"
+                android:id="@+id/nav_appUsageManager"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="@string/appUsageManager" />
+            <item
+                android:checkable="true"
+
+                android:id="@+id/nav_statistics"
+                android:icon="@android:drawable/ic_menu_sort_by_size"
+                android:title="@string/statistics" />
+        </menu>
+    </item>
+
+    <item android:title="@string/maps_nav_title">
+        <menu>
+            <item
+                android:id="@+id/map_nav"
+                android:checkable="true"
+
+                android:icon="@android:drawable/ic_dialog_map"
+                android:title="@string/maps" />
+        </menu>
+    </item>
+
+
+
+    <item android:title="@string/item_title_login">
+        <menu>
+            <item
+                android:id="@+id/nav_google_login"
+                android:icon="@drawable/ic_google"
+                android:title="@string/google_login" />
+            <item
+                android:id="@+id/nav_facebook_login"
+                android:icon="@drawable/ic_facebook"
+                android:title="@string/facebook_login"/>
+        </menu>
+    </item>
+
+</menu>

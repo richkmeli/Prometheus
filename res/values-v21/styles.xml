@@ -1,0 +1,191 @@
+<resources>
+
+
+    <style name="DrawerArrowStyle_white" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="DrawerArrowStyle_black" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/black</item>
+    </style>
+
+
+    <style name="toolBarRight_white" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="toolBarRight_black" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/realBlack</item>
+    </style>
+
+
+    <!-- Prometheus theme  <item name="colorControlNormal">@color/white</item>-->
+    <style name="PromCardView" parent="CardView">
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="PromTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/prom_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/prom_colorPrimaryDark</item>
+        <item name="colorAccent">@color/prom_colorAccent</item>
+
+        <item name="android:colorBackground">@color/prom_colorBackground</item>
+        <item name="android:windowBackground">@color/prom_colorBackground</item>
+
+        <item name="android:textColor">@color/primary_text_material_light</item>
+        <item name="android:textColorPrimary">@color/primary_text_material_light</item>
+        <item name="android:textColorSecondary">@color/prom_colorPrimaryDark</item>
+
+        <item name="android:colorButtonNormal">@color/prom_colorPrimary</item>
+
+        <item name="android:searchIcon">@android:drawable/ic_menu_info_details</item>
+
+
+        <item name="cardStyle">@style/PromCardView</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle_white</item>
+        <item name="actionOverflowButtonStyle">@style/toolBarRight_white</item>
+    </style>
+
+
+    <!-- Material Theme-->
+    <style name="MaterialCardView" parent="CardView">
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="MaterialTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/material_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/material_colorPrimaryDark</item>
+        <item name="colorAccent">@color/material_colorAccent</item>
+
+        <item name="android:windowBackground">@color/material_colorBackground</item>
+        <item name="android:colorBackground">@color/material_colorBackground</item>
+
+
+        <item name="android:textColor">@color/primary_text_material_light</item>
+        <item name="android:textColorPrimary">@color/primary_text_material_light</item>
+        <item name="android:textColorSecondary">@color/material_colorPrimaryDark</item>
+
+        <item name="android:colorButtonNormal">@color/material_colorPrimary</item>
+
+        <item name="cardStyle">@style/MaterialCardView</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle_white</item>
+        <item name="actionOverflowButtonStyle">@style/toolBarRight_white</item>
+    </style>
+
+
+    <!--Pig Theme <item name="android:statusBarColor">@color/pig_colorPrimaryDark</item>-->
+    <style name="PigCardView" parent="CardView">
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="PigTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/pig_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/pig_colorPrimaryDark</item>
+        <item name="colorAccent">@color/pig_colorAccent</item>
+
+        <item name="android:colorBackground">@color/pig_colorBackground</item>
+        <item name="android:windowBackground">@color/pig_colorBackground</item>
+
+        <item name="android:textColor">@color/primary_text_material_light</item>
+        <item name="android:textColorPrimary">@color/primary_text_material_light</item>
+        <item name="android:textColorSecondary">@color/pig_secondaryText</item>
+
+
+        <item name="android:colorButtonNormal">@color/pig_colorPrimary</item>
+
+        <item name="cardStyle">@style/PigCardView</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle_black</item>
+        <item name="actionOverflowButtonStyle">@style/toolBarRight_black</item>
+    </style>
+
+
+    <!--Dog Theme <item name="android:navigationBarColor">@color/realBlack</item>
+        <item name="android:statusBarColor">@color/dog_colorPrimaryDark</item>
+        <item name="android:textColorTertiary">@color/white</item>
+         <item name="android:colorForeground">@color/foreground_material_light</item>-->
+
+    <style name="DogCardView" parent="CardView">
+        <item name="cardBackgroundColor">@color/dog_colorBackground</item>
+    </style>
+
+    <style name="DogTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/dog_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/dog_colorPrimaryDark</item>
+        <item name="colorAccent">@color/dog_colorAccent</item>
+
+        <item name="android:windowBackground">@color/dog_colorBackground</item>
+        <item name="android:colorBackground">@color/dog_colorBackground</item>
+
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+
+        <item name="android:colorButtonNormal">@color/dog_colorPrimary</item>
+
+        <item name="cardStyle">@style/DogCardView</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle_white</item>
+        <item name="actionOverflowButtonStyle">@style/toolBarRight_white</item>
+    </style>
+
+    <!--Turkey Theme   <item name="android:navigationBarColor">@color/realBlack</item>
+        <item name="android:statusBarColor">@color/turkey_colorPrimaryDark</item>-->
+    <style name="TurkeyCardView" parent="CardView">
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="TurkeyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/turkey_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/turkey_colorPrimaryDark</item>
+        <item name="colorAccent">@color/turkey_colorAccent</item>
+
+        <item name="android:colorBackground">@color/turkey_colorBackground</item>
+        <item name="android:windowBackground">@color/turkey_colorBackground</item>
+
+        <item name="android:colorButtonNormal">@color/turkey_colorAccent</item>
+
+
+        <item name="android:textColor">@color/primary_text_material_light</item>
+        <item name="android:textColorPrimary">@color/primary_text_material_light</item>
+        <item name="android:textColorSecondary">@color/turkey_colorPrimaryDark</item>
+
+        <item name="cardStyle">@style/TurkeyCardView</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle_white</item>
+        <item name="actionOverflowButtonStyle">@style/toolBarRight_white</item>
+    </style>
+
+
+    <!--Android Theme -->
+    <style name="AndroidCardView" parent="CardView">
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="AndroidTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/android_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/android_colorPrimaryDark</item>
+        <item name="colorAccent">@color/android_colorAccent</item>
+
+        <item name="android:colorBackground">@color/android_colorBackground</item>
+        <item name="android:windowBackground">@color/android_colorBackground</item>
+
+        <item name="android:textColor">@color/primary_text_material_light</item>
+        <item name="android:textColorPrimary">@color/primary_text_material_light</item>
+        <item name="android:textColorSecondary">@color/android_colorPrimaryDark</item>
+
+        <item name="android:colorButtonNormal">@color/android_colorPrimary</item>
+
+        <item name="cardStyle">@style/AndroidCardView</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle_white</item>
+        <item name="actionOverflowButtonStyle">@style/toolBarRight_white</item>
+    </style>
+
+
+    <style name="AppThemeDark" parent="android:Theme.Material">
+        <item name="android:colorPrimary">@color/primary_material_dark_2</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark_material_dark</item>
+        <item name="android:colorAccent">@color/accent_material_dark</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:statusBarColor">@color/material_colorPrimaryDark</item>
+    </style>
+</resources>

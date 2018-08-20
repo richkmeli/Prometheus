@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="informatica.unipr.it.Prometheus.fragment.MainActivity">
+
+    <!--Utilizziamo questo per le gif-->
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/homeImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top"
+        android:src="@drawable/android" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="26sp"
+        android:visibility="gone"
+        android:textStyle="italic"
+        android:id="@+id/muteTextHome"
+        android:text="@string/text_mute"
+        android:layout_alignParentBottom="true" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignWithParentIfMissing="false"
+        android:id="@+id/linearLayout6">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/totalUsageText"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:textStyle="italic"
+                android:layout_alignParentEnd="true"
+                android:padding="10dp"
+                android:text="@string/total_notify_home_1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/totalNotifyText"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:text="@string/total_notify_home_1"
+                android:padding="10dp"
+                android:layout_below="@+id/totalUsageText"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:layout_width="match_parent"
+        android:id="@+id/myChar"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/linearLayout6">
+    </com.github.mikephil.charting.charts.PieChart>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/not_information_chart"
+        android:id="@+id/notEnoughApp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/linearLayout6" />
+
+
+
+</RelativeLayout>

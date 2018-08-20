@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/avatarNotificationDialog"
+            android:src="@drawable/android"
+
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/timeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/dialog_too_much_usage_title"
+            android:textColor="@color/realBlack"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/colorBarNoti"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:background="@color/realBlack"
+        android:orientation="vertical"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:id="@+id/linearLayout3"
+        android:layout_marginBottom="25dp">
+
+        <ImageView
+            android:layout_marginLeft="12dp"
+            android:id="@+id/imageNotifiDialog"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/android"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/textTooMuchUsage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:textColor="@color/realBlack"
+            android:text="@string/fullScreenAndDialogNotice"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+   <!-- MID Material <LinearLayout
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:background="@color/white"
+        android:gravity="right"
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignRight="@+id/linearLayout2"
+        android:layout_alignEnd="@+id/linearLayout2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:id="@+id/noTrack"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="@color/prom_colorPrimary"
+            android:text="@string/dialog_too_much_usage_not_annoying"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/yesTrack"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="@color/prom_colorPrimary"
+
+            android:text="@string/dialog_too_much_usage_sure"/>
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/linearLayout4">
+
+    <Button
+        android:id="@+id/buttonTooMuchUsage"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:textColor="@color/white"
+        android:text="@string/dialog_too_much_usage_sure" />
+
+    <Button
+        android:id="@+id/buttonTooMuchUsageShutUp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:textColor="@color/white"
+        android:text="@string/dialog_too_much_usage_not_annoying" />
+    </LinearLayout>
+
+
+</LinearLayout>

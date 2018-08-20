@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:background="@color/white"
+                android:id="@+id/linearLayout7">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_gravity="start"
+                    android:layout_height="40dp"
+                    android:src="@drawable/overdraw_permission"
+                    android:id="@+id/iconDialogMaterial" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="19sp"
+                    android:text="Allow Prometheus to write over other apps?"
+                    android:layout_marginLeft="25dp"
+                    android:id="@+id/textViewDialogMaterial" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingBottom="20dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:background="@color/white"
+                android:gravity="right"
+                android:paddingTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/linearLayout7"
+                android:layout_alignRight="@+id/linearLayout7"
+                android:layout_alignEnd="@+id/linearLayout7"
+                android:layout_alignLeft="@+id/linearLayout7"
+                android:layout_alignStart="@+id/linearLayout7">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/deny"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textColor="@color/prom_colorPrimary"
+                    android:text="@string/dialog_track_no"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/allow"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textColor="@color/prom_colorPrimary"
+
+                    android:text="@string/dialog_track_yes"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/avatarDialogAnimated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/prom_colorPrimaryDark"
+                android:text="@string/dynamic" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/android_colorAccent">
+
+
+                <RelativeLayout
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:id="@+id/promTap">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignBottom="@+id/dialog_prom">
+                        <TextView
+                            android:textColor="@color/realBlack"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/prometheus_theme"
+                            android:textSize="22sp"
+                            android:gravity="center|left"
+                            android:layout_weight="0.5"
+                            android:id="@+id/promThemeRow" />
+                        <TextView
+                            android:layout_weight="0.5"
+                            android:id="@+id/promThemeRowColor"
+                            android:textSize="16sp"
+                            android:textStyle="italic"
+                            android:textColor="@color/android_colorAccent"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="@string/prometheus_theme_color"
+                            />
+                    </LinearLayout>
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/dialog_prom"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/promhappy"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/materialTap">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignBottom="@+id/dialog_material">
+                        <TextView
+                            android:textColor="@color/realBlack"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/material_theme"
+                            android:textSize="22sp"
+                            android:gravity="center|left"
+                            android:layout_weight="0.5"
+                            android:id="@+id/materialThemeRow" />
+                        <TextView
+                            android:layout_weight="0.5"
+                            android:id="@+id/materialThemeRowColor"
+                            android:textSize="16sp"
+                            android:textStyle="italic"
+                            android:textColor="@color/android_colorAccent"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="@string/material_theme_color"
+                            />
+                    </LinearLayout>
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:id="@+id/dialog_material"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/materialhappy"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+
+
+                </TableLayout>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/avatarDialogStatic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/prom_colorPrimaryDark"
+                android:text="@string/static_avatar" />
+
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/android_colorAccent">
+                <RelativeLayout
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/turkeyTap"
+                    android:layout_marginBottom="1dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignBottom="@+id/dialog_turkey">
+                        <TextView
+                            android:textColor="@color/realBlack"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/turkey_theme"
+                            android:textSize="22sp"
+                            android:gravity="center|left"
+                            android:layout_weight="0.5"
+                            android:id="@+id/turkeyThemeRow" />
+                        <TextView
+                            android:layout_weight="0.5"
+                            android:id="@+id/turkeyThemeRowColor"
+                            android:textSize="16sp"
+                            android:textStyle="italic"
+                            android:textColor="@color/android_colorAccent"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="@string/turkey_theme_color"
+                            />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/dialog_turkey"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:src="@drawable/turkeyhappy"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:background="@color/white"
+                    android:id="@+id/pigTap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignBottom="@+id/dialog_pig">
+                        <TextView
+                            android:textColor="@color/realBlack"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/pig_theme"
+                            android:textSize="22sp"
+                            android:gravity="center|left"
+                            android:layout_weight="0.5"
+                            android:id="@+id/pigThemeRow" />
+                        <TextView
+                            android:layout_weight="0.5"
+                            android:id="@+id/pigThemeRowColor"
+                            android:textSize="16sp"
+                            android:textStyle="italic"
+                            android:textColor="@color/android_colorAccent"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="@string/pig_theme_color"
+                            />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/dialog_pig"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:src="@drawable/pighappy"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+
+
+
+
+                <RelativeLayout
+                    android:background="@color/white"
+                    android:id="@+id/dogTap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignBottom="@+id/dialog_dog">
+                        <TextView
+                            android:textColor="@color/realBlack"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/dog_theme"
+                            android:textSize="22sp"
+                            android:gravity="center|left"
+                            android:layout_weight="0.5"
+                            android:id="@+id/dogThemeRow" />
+                        <TextView
+                            android:layout_weight="0.5"
+                            android:id="@+id/dogThemeRowColor"
+                            android:textSize="16sp"
+                            android:textStyle="italic"
+                            android:textColor="@color/android_colorAccent"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="@string/dog_theme_color"
+                            />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/dialog_dog"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:src="@drawable/doghappy"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/androidTap">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignBottom="@+id/dialog_android">
+                        <TextView
+                            android:textColor="@color/realBlack"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/android_theme"
+                            android:textSize="22sp"
+                            android:gravity="center|left"
+                            android:layout_weight="0.5"
+                            android:id="@+id/androidThemeRow" />
+                        <TextView
+                            android:layout_weight="0.5"
+                            android:id="@+id/androidThemeRowColor"
+                            android:textSize="16sp"
+                            android:textStyle="italic"
+                            android:textColor="@color/android_colorAccent"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="@string/android_theme_color"
+                            />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/dialog_android"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:src="@drawable/android"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </TableLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

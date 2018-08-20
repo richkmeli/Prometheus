@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".notification.LockFullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- TODO modifica dela dimensione del testo dinamica -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/lockscreenImage"
+        android:paddingTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:foregroundGravity="center"
+        android:layout_gravity="center"
+        android:src="@drawable/androiddesperate"
+        android:layout_below="@+id/fullscreen_notice"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/buttonFullscreen" />
+
+    <TextView
+        android:id="@+id/fullscreen_notice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/fullScreenAndDialogNotice"
+        android:textColor="@color/textNotice"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonFullscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal|bottom"
+        android:clickable="false"
+        android:text="@string/lockscreen_button_exit"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
