@@ -1,4 +1,4 @@
-# Prometheus
+# Prometheus - App Usage Detox
 
 Do you consider yourself addicted to your smartphone?
 Do you have any idea on how much time you spend on it?
