@@ -1,15 +1,15 @@
 # Prometheus
 
-<div><img src="https://lh3.googleusercontent.com/JSm9h7-Ixn5-n7siXQt8k-6Re0EthBeftZ7apgsTgAjuHFWj2YUSyZFchnYQel131fQd=w2560-h1286-rw" width="30%">
-<img src="https://lh3.googleusercontent.com/oDYz5Vbszv201yuaIyV5NY1ud0la6w-tK-86VjSqjwChoDOqnj5HBzfn_8KYCmn8_bnh=w2560-h1184-rw" width="30%">
-<img src="https://lh3.googleusercontent.com/lsRq6sAAmy__Aqbc6ZX_xyNBZUPyM-GlEH1daho-6LQpzNRKh5qPx5TbfCN9QP27GJoc=w2560-h1184-rw" width="30%"></div>
-
 Do you consider yourself addicted to your smartphone?
 Do you have any idea on how much time you spend on it?
 Would you be interested in reducing its usage?
 
 ... Then Prometheus could ASSIST you!
 
+
+<div><img src="https://lh3.googleusercontent.com/JSm9h7-Ixn5-n7siXQt8k-6Re0EthBeftZ7apgsTgAjuHFWj2YUSyZFchnYQel131fQd=w2560-h1286-rw" width="30%">
+<img src="https://lh3.googleusercontent.com/oDYz5Vbszv201yuaIyV5NY1ud0la6w-tK-86VjSqjwChoDOqnj5HBzfn_8KYCmn8_bnh=w2560-h1184-rw" width="30%">
+<img src="https://lh3.googleusercontent.com/lsRq6sAAmy__Aqbc6ZX_xyNBZUPyM-GlEH1daho-6LQpzNRKh5qPx5TbfCN9QP27GJoc=w2560-h1184-rw" width="30%"></div>
 
 Prometheus’ true value rests on allowing the user the possibility to reduce smartphones dependency! 
 It monitors, tracks the usage of your smartphone and notifies users about specific situations. All notifications, which are easily configurable, depend on the personal set-up directly manageable by users. A more in depth review shows that the app precisely quantifies the time spent on each application, thus clients will have a comprehensive perception of their smarthones usage.
