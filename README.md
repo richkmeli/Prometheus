@@ -6,6 +6,9 @@ Would you be interested in reducing its usage?
 
 ... Then Prometheus could ASSIST you!
 
+## Developers
+- Riccardo Melioli: [Github](https://github.com/richkmeli), [LinkedIn](https://www.linkedin.com/in/riccardomelioli/)
+- Francesco Fabiano: [Github](https://github.com/FrancescoFabiano), [LinkedIn](https://www.linkedin.com/in/francesco-fabiano-97819a166/)
 
 <div><img src="https://lh3.googleusercontent.com/JSm9h7-Ixn5-n7siXQt8k-6Re0EthBeftZ7apgsTgAjuHFWj2YUSyZFchnYQel131fQd=w2560-h1286-rw" width="30%">
 <img src="https://lh3.googleusercontent.com/oDYz5Vbszv201yuaIyV5NY1ud0la6w-tK-86VjSqjwChoDOqnj5HBzfn_8KYCmn8_bnh=w2560-h1184-rw" width="30%">
